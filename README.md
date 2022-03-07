@@ -21,6 +21,9 @@ pip install pyyaml
 
 Create a markup Class and set all properties to null as described below 
 ```sh
+import yaml 
+
+class MarkupConverter:
 def __init__(self):
         self.inputFile = ""
         self.outputFile = ""
