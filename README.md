@@ -2,6 +2,16 @@
 
 # Getting Started with Python Yaml 
 
+Update Pip package before installing the yaml python library 
+```sh
+pip update pip
+```
+
+Install Yaml Python Library to begin  
+```sh
+pip install pyyaml
+```
+
 # Code Structure 
 ```sh
 from dataclasses import dataclass
@@ -53,6 +63,11 @@ class MarkupConverter:
 ```
 
 # Breakdown
+```sh
+
+```
+
+#Use Cases
 ```sh
 
 ```
