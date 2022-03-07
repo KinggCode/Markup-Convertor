@@ -1,4 +1,3 @@
-from dataclasses import dataclass
 import yaml 
 
 class MarkupConverter:
@@ -51,8 +50,12 @@ class MarkupConverter:
 #Create an instance of the MarkupClass
 obj = MarkupConverter()
 
-## OutputFile = yaml file  || Inputfile = json file 
-obj.markup_convert('defaultnew.yaml','test.json')
-
+#Read files
 #Inputfile = yaml file 
 # print(obj.read_markup_file('default.xml'))
+
+## Markup Convert Run
+## OutputFile = yaml file  || Inputfile = json file 
+obj.markup_convert('default.yaml','test.json')
+
+
