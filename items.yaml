@@ -1,0 +1,35 @@
+courses: 
+  data-sctructure: 
+    code: "DS-12"
+    location:
+    - country: Ghana
+      state: Greater-Accra
+      city: Dansoman
+    - country: Ghana
+      state: Kumasi
+      city: Juaben
+
+    start: "2012-12-04"
+    end: "2012-12-12"
+
+  data-algorithm:
+    code: "DA-12"
+    location: Remote
+    start: "2012-12-04"
+    end: "2012-12-12"
+
+  cloud-computing:
+    code: "CC-15"
+    location: Remote
+    start: "2012-12-04"
+    end: "2012-12-12"
+    
+  cyber-security:
+    code: "CS-13"
+    location: Remote
+    start: "2012-12-04"
+    end: "2012-12-12"
+
+clothes: 
+  shirts: 120
+  shorts: 450
