@@ -4,7 +4,12 @@
 
 Update Pip package before installing the yaml python library 
 ```sh
-pip update pip
+pip install --upgrade pip
+```
+
+On Windows the recommended command is: 
+```sh 
+python -m pip install --upgrade pip
 ```
 
 Install Yaml Python Library to begin  
